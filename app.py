@@ -10,7 +10,7 @@ import requests
 import webbrowser
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyClLXoS5I0GGZQENj3JTuiUJztB1KqWocI")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat_session = model.start_chat(history=[])
